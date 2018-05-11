@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\592b8ce3b0db81777892e6454b686e72c54fbec0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_8f865061cfa63a4138d6d9a1564fe1eebd514546.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\592b8ce3b0db81777892e6454b686e72c54fbec0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f865061cfa63a4138d6d9a1564fe1eebd514546\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33084f224a23ba13d5ee54f2adb0f97d79d6d8f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\07558d2360fd8c6f317321619f857c27732b3f0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c86dda3923adad3cea6bf7fb022ecc87a82f589\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\dcc281308cd3ccaedf4eb70f6b2a8f48476a8daf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28a8fba274dba9a11d539d1d584468390bd3f99d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_9dd2c556f6c173cfb3fc36c1796add264cd78bf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\63f75ae97a92cac87c5de970405d75bd460bac76\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_56a17f13e914a5f69bf6eeefebfa7fee18853c58.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_9dd2c556f6c173cfb3fc36c1796add264cd78bf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\7b5f4f24d4765194e53e1eeb2d3226d5bff036d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2567b62f9e19c5c7c2623f5c07039402dd492178\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\63f75ae97a92cac87c5de970405d75bd460bac76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56a17f13e914a5f69bf6eeefebfa7fee18853c58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\ed4d5e9ab2d294fa50144462825b71c916857e79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35af6727e9ca4d862b943df8f7dd1c0a85d80c9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_c96606ff0e73984df0172a0ff8e72e5d3ffcd06e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\6f40e84a5d983f264c0cb15356ab76cd1efcfc56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_63cf2f15ea04d732513cae449a06fbd8a7e26211.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\6f40e84a5d983f264c0cb15356ab76cd1efcfc56\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_63cf2f15ea04d732513cae449a06fbd8a7e26211\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\ed4d5e9ab2d294fa50144462825b71c916857e79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_35af6727e9ca4d862b943df8f7dd1c0a85d80c9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\7b5f4f24d4765194e53e1eeb2d3226d5bff036d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_2567b62f9e19c5c7c2623f5c07039402dd492178.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\dcc281308cd3ccaedf4eb70f6b2a8f48476a8daf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_28a8fba274dba9a11d539d1d584468390bd3f99d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\5c46073812913fb56042ec8592d9c5b7f7d1835a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_617fcbb2c4c5eb3f8ad10237fe1651ea87ef3916\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="145d4f01f0583eefbe6e6e715165c101ce05fb77">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76086ae07efddeff44ac8f2324af8488f0df52b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\07558d2360fd8c6f317321619f857c27732b3f0b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_9c86dda3923adad3cea6bf7fb022ecc87a82f589.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\5c46073812913fb56042ec8592d9c5b7f7d1835a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_617fcbb2c4c5eb3f8ad10237fe1651ea87ef3916.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gelson\.android\build-cache\783404346b2e7502323a48dc5bb42b021d0a90d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_294ddd8c11d13ed035f836fece2039cbe684c532\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\72b5a5f369c4e5e5b1b0a470f120508bafd05265\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_4dcf059b9d750d2bf06e1d3c2db6e222695a01c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gelson\.android\build-cache\783404346b2e7502323a48dc5bb42b021d0a90d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\build\intermediates\pre-dexed\debug\classes_294ddd8c11d13ed035f836fece2039cbe684c532.jar" />
+    </item>
+
+</items>
