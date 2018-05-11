@@ -48,6 +48,7 @@ public class MovimentoActivity extends Activity {
     private boolean wirelessRunning = false;
     private String[] bssids = new String[]{"C4:E9:84:A6:DE:BE", "30:B5:C2:DE:36:E2"}; // Gelson Casa
     private List<ScanResult> wifiList;
+    private final Integer Leituras = 10;
 
 
     @Override
@@ -150,90 +151,15 @@ public class MovimentoActivity extends Activity {
 
     public void Viterbi(View view) {
 
-        //    Toast.makeText(getApplicationContext(), MsgControle+ " Viterbi ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), MsgControle+ " Viterbi ", Toast.LENGTH_SHORT).show();
 
- /*       Viterbi v = new Viterbi(450, 2, 3);
+       Viterbi v = new Viterbi(450, 2, 3);
         int[] celulas = v.viterbi(new float[][]{{45, 60}});
         for (int i = 0; i < celulas.length; i++) {
             System.out.println(celulas[i]);
-        }  */
+        }  
 
     }
-
-    private void wireless() {
-        new Thread(new Runnable() {
-
-            @Override
-            public void run() {
-                try {
-                    changeButton(false);
-                    Thread.sleep(15000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                registerWireless();
-                //	changeButton(false); roberson
-                int i = 1;
-                while (i <= npInteracao.getValue()) {
-                    if (!wirelessRunning) {
-                        wifiManager.startScan();
-                        wirelessRunning = true;
-                        startTime = System.currentTimeMillis();
-                        i++;
-                        // espera o tempo especificado, se o receiver retornar
-                        // coleta os dados ...
-                        while (((System.currentTimeMillis() - startTime) / 1000) <= npTempo.getValue());
-                        wirelessRunning = false;
-                    }
-                }
-                wirelessRunning = false;
-                unregisterWireless();
-                changeButton(true);
-                sound();
-            }
-        }).start();
-
-    }
-
-    /**
-     * wifi discover method
-     */
-    private void registerWireless() {
-        wifiReceiver = new BroadcastReceiver() {
-            public void onReceive(Context c, Intent intent) {
-                StringBuilder sb = new StringBuilder();
-                if (wirelessRunning) {
-                    wifiList = wifiManager.getScanResults();
-                    for (int i = 0; i < bssids.length; i++) {
-                        String rssi = "?,";
-                        for (ScanResult result : wifiList) {
-                            if (result.BSSID.equalsIgnoreCase(bssids[i])) {
-                                // achou o ssid procurado
-                                rssi = result.level + ",";
-                                break;
-                            }
-                        }
-
-                        lblStatus.setText("WIFI Ativa");  // Nosso código
-                        sb.append(rssi);
-                        lblValorRSSI.setText(sb.toString().substring(0, sb.length() -1));
-                    }
-                    Log.v(WIRELESS_TAG, "c" + npCelula.getValue() + "," + sb.toString().substring(0, sb.length() - 1));
-                    FileUtil.writeToSD("c" + npCelula.getValue() + ","  + sb.toString().substring(0, sb.length() - 1), WIRELESS_FILENAME);
-                    wirelessRunning = false;
-                }
-            }
-        };
-
-        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-    }
-
-    private void unregisterWireless() {
-        unregisterReceiver(wifiReceiver);
-    }
-
-
-
 
 
 
