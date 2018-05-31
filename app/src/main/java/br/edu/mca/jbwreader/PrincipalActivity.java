@@ -1,6 +1,10 @@
 package br.edu.mca.jbwreader;
 
+import java.util.List;
+
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -18,10 +22,16 @@ import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.List;
+import org.w3c.dom.Text;
 
-import br.edu.mca.serialviterbi.ui.Viterbi;
+/**
+ * Atividade principal do sistema
+ *
+ * @author Gelson E Pablo
+ *
+ */
 
 
 public class PrincipalActivity extends Activity implements OnClickListener {
@@ -36,30 +46,23 @@ public class PrincipalActivity extends Activity implements OnClickListener {
     private TextView lblStatus;
     private TextView lblValorRSSI;
 
-
     private List<ScanResult> wifiList;
     private long startTime = 0;
 
-    // adaptadores e wifi - precisam estar ativos
+    // adaptadores bluetooth e wifi - precisam estar ativos
     private WifiManager wifiManager;
 
     private final String WIRELESS_TAG = "BWReader - WIRELESS";
     private final String WIRELESS_FILENAME = "wireless_android.csv";
+
     private BroadcastReceiver wifiReceiver;
 
     private boolean wirelessRunning = false;
-    private Integer valorRSSI = null;
 
-    // relação de ssids de aps wifi a serem utilizados, eh preciso
-    // inicializar(linksys, dlink, lcad, sala16)
 
-    private String[] bssids = new String[]{"C4:E9:84:A6:DE:BE", "30:B5:C2:DE:36:E2"}; // Gelson Casa
-//      private String[] bssids = new String[] {"FO:3E:90:36:56:9C", "F0:3E:30:36:32:B8"}; // unoesc
-//        private String[] bssids = new String[] {"5A:9F:FA:A2:DB:83"};                      // haderoc
+    private String[] bssids = new String[] {"C4:E9:84:A6:DE:BE", "30:B5:C2:DE:36:E2"}; // Gelson Casa
 
-    // relacao de address de beacons a serem utilizados, eh preciso
-    // inicializar
-    private String[] addresses = new String[]{};
+    private String[] addresses = new String[] {};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,14 +96,12 @@ public class PrincipalActivity extends Activity implements OnClickListener {
         btnColetar.setOnClickListener(this);
 
 
+
         wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         if (!wifiManager.isWifiEnabled()) {
             wifiManager.setWifiEnabled(true);
             lblStatus.setText(wifiManager.getWifiState());
         }
-
-        // aqui vai o viterbi
-
     }
 
     @Override
@@ -112,12 +113,10 @@ public class PrincipalActivity extends Activity implements OnClickListener {
                 break;
             case R.id.btnColetar:
                 if (rgTipo.getCheckedRadioButtonId() == R.id.rdWireless) {
-                    wireless();
+                  wireless();
                 }
         }
     }
-
-
     /**
      * metodo wifi
      */
@@ -128,7 +127,7 @@ public class PrincipalActivity extends Activity implements OnClickListener {
             public void run() {
                 try {
                     changeButton(false);
-                    Thread.sleep(15000);
+                    Thread.sleep(100);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -144,16 +143,15 @@ public class PrincipalActivity extends Activity implements OnClickListener {
                         // espera o tempo especificado, se o receiver retornar
                         // coleta os dados ...
                         while (((System.currentTimeMillis() - startTime) / 1000) <= npTempo.getValue());
-                         wirelessRunning = false;
+                        wirelessRunning = false;
                     }
                 }
-                 wirelessRunning = false;
+                wirelessRunning = false;
                 unregisterWireless();
                 changeButton(true);
                 sound();
             }
         }).start();
-
     }
 
     /**
@@ -171,25 +169,30 @@ public class PrincipalActivity extends Activity implements OnClickListener {
                             if (result.BSSID.equalsIgnoreCase(bssids[i])) {
                                 // achou o ssid procurado
                                 rssi = result.level + ",";
-                                break;
-                            }
-                        }
 
-                        lblStatus.setText("WIFI Ativa");  // Nosso código
+                                break;
+
+                            }
+
+                        }
                         sb.append(rssi);
-                        lblValorRSSI.setText(sb.toString().substring(0, sb.length() -1));
+                        lblStatus.setText("WIFI Ativa");  // Nosso código
+                        lblValorRSSI.setText(sb.toString().substring(0, sb.length() - 1));
+
                     }
-                    Log.v(WIRELESS_TAG, "c" + npCelula.getValue() + "," + sb.toString().substring(0, sb.length() - 1));
-                    FileUtil.writeToSD("c" + npCelula.getValue() + ","  + sb.toString().substring(0, sb.length() - 1), WIRELESS_FILENAME);
+
+                    Log.v(WIRELESS_TAG,"c" + npCelula.getValue() + ","+ sb.toString().substring(0, sb.length() - 1));
+                    FileUtil.writeToSD("c" + npCelula.getValue() + "," + sb.toString().substring(0, sb.length() - 1),	WIRELESS_FILENAME);
                     wirelessRunning = false;
                 }
             }
         };
 
-        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        registerReceiver(wifiReceiver, new IntentFilter(
+                WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
     }
 
-    private void unregisterWireless() {
+   private void unregisterWireless() {
         unregisterReceiver(wifiReceiver);
     }
 
@@ -206,7 +209,7 @@ public class PrincipalActivity extends Activity implements OnClickListener {
         int times = 0;
         try {
             Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
-            Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
+            Ringtone r = RingtoneManager.getRingtone(getApplicationContext(),notification);
             r.play();
             while (r.isPlaying() && times <= 3) {
                 Thread.sleep(15000);
@@ -216,11 +219,12 @@ public class PrincipalActivity extends Activity implements OnClickListener {
         } catch (Exception e) {
         }
     }
+    public void Movimento(View view){
 
-    public void Movimento(View view) {
         Intent intent = new Intent(this, MovimentoActivity.class);
         startActivity(intent);
+        //	Toast toast = Toast.makeText(getApplicationContext(), "Entrou na ação do Botão",Toast.LENGTH_SHORT);
+        //	toast.show();
     }
 
 }
-

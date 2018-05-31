@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 10 23:30:36 BRT 2018
+#Sat May 12 11:49:26 BRT 2018
 2.base=D\:\\Unoesc\\2017\\tcc Roberson\\JBWReader\\JBWReader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 5.set=DEX
 0.path=classes.dex

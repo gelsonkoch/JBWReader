@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_jbwreader" default="compile.module.jbwreader">
+  <dirname property="module.jbwreader.basedir" file="${ant.file.module_jbwreader}"/>
+  
+  <property name="module.jdk.home.jbwreader" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.jbwreader" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.jbwreader" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.jbwreader" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="jbwreader.output.dir" value="${module.jbwreader.basedir}/build/classes/production/JBWReader"/>
+  <property name="jbwreader.testoutput.dir" value="${module.jbwreader.basedir}/build/classes/test/JBWReader"/>
+  
+  <path id="jbwreader.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="jbwreader.module.production.classpath">
+    <path refid="${module.jdk.classpath.jbwreader}"/>
+  </path>
+  
+  <path id="jbwreader.runtime.production.module.classpath">
+    <pathelement location="${jbwreader.output.dir}"/>
+  </path>
+  
+  <path id="jbwreader.module.classpath">
+    <path refid="${module.jdk.classpath.jbwreader}"/>
+    <pathelement location="${jbwreader.output.dir}"/>
+  </path>
+  
+  <path id="jbwreader.runtime.module.classpath">
+    <pathelement location="${jbwreader.testoutput.dir}"/>
+    <pathelement location="${jbwreader.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.jbwreader">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.jbwreader">
+    <patternset refid="excluded.from.module.jbwreader"/>
+  </patternset>
+  
+  
+  <target name="compile.module.jbwreader" depends="compile.module.jbwreader.production,compile.module.jbwreader.tests" description="Compile module JBWReader"/>
+  
+  <target name="compile.module.jbwreader.production" depends="register.custom.compilers" description="Compile module JBWReader; production classes"/>
+  
+  <target name="compile.module.jbwreader.tests" depends="register.custom.compilers,compile.module.jbwreader.production" description="compile module JBWReader; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.jbwreader" description="cleanup module">
+    <delete dir="${jbwreader.output.dir}"/>
+    <delete dir="${jbwreader.testoutput.dir}"/>
+  </target>
+</project>

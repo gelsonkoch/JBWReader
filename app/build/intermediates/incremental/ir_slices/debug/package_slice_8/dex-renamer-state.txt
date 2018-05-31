@@ -1,0 +1,4 @@
+#Thu May 31 19:08:22 BRT 2018
+base.0=D\:\\Unoesc\\2017\\tcc Roberson\\JBWReader\\JBWReader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

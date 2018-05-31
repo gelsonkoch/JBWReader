@@ -20,6 +20,13 @@
         android:text="Aqui definimos o ponto de partida e chegada"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/txtCelula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Célula Atual = ?"
+        android:textColor="@android:color/holo_red_light" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="86dp"
@@ -32,9 +39,28 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingTop="5dp"
-            android:layout_weight="0.07">
+            android:layout_weight="0.07"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt.RssiLAtual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Célula Atual:" />
+
+            <NumberPicker
+                android:id="@+id/npAtual"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/txtOrigem"
@@ -45,9 +71,8 @@
 
             <NumberPicker
                 android:id="@+id/npOrigem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical|center_horizontal" />
 
         </LinearLayout>
@@ -55,10 +80,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:orientation="vertical"
-            android:paddingTop="5dp"
-            android:layout_weight="0.07">
+            android:layout_weight="0.07"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/txtDestino"
@@ -69,10 +92,9 @@
 
             <NumberPicker
                 android:id="@+id/npDestino"
-                android:layout_width="match_parent"
+                android:layout_width="97dp"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:layout_marginTop="10dp" />
+                android:layout_gravity="center_vertical|center_horizontal" />
         </LinearLayout>
 
     </LinearLayout>
@@ -164,14 +186,6 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnMontaMatriz"
-                    android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="MontaMatriz"
-                    android:text="Montar matriz" />
-
-                <Button
                     android:id="@+id/btnPrincipal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -182,10 +196,10 @@
 
                 <Button
                     android:id="@+id/btnIniciarMovimento"
-                    android:layout_width="191dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:onClick="Viterbi"
+                    android:onClick="iniciaMovimento"
                     android:text="Iniciar Deslocamento" />
 
             </LinearLayout>

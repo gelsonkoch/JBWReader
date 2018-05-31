@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ded1aff6699267a2917638fa1a3958fe\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:17:1-31:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bdcafadb06119dd19dcfd5401bb27204\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml
@@ -35,30 +35,30 @@ uses-sdk
 ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ded1aff6699267a2917638fa1a3958fe\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ded1aff6699267a2917638fa1a3958fe\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bdcafadb06119dd19dcfd5401bb27204\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bdcafadb06119dd19dcfd5401bb27204\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:21:5-23:58
 INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml
@@ -136,88 +136,84 @@ ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidM
 	android:name
 		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:27:22-87
 uses-feature#android.hardware.wifi
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:29:5-58
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:28:5-58
 	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:29:19-55
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:28:19-55
 application
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:34:5-54:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ded1aff6699267a2917638fa1a3958fe\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ded1aff6699267a2917638fa1a3958fe\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:29:5-20
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:33:5-52:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bdcafadb06119dd19dcfd5401bb27204\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bdcafadb06119dd19dcfd5401bb27204\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:37:9-41
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:36:9-41
 	android:icon
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:36:9-45
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:35:9-45
 	android:allowBackup
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:35:9-35
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:38:9-40
-activity#br.edu.mca.jbwreader.PrincipalActivity
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:40:9-51:20
-	android:screenOrientation
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:43:13-49
-	android:label
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:37:9-40
+uses-library#com.google.android.things
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:38:9-66
 	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:41:13-46
-intent-filter#android.intent.action.MAIN+android.intent.category.IOT.LAUNCHER+android.intent.category.LAUNCHER
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:44:13-50:29
-action#android.intent.action.MAIN
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:45:17-69
-	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:45:25-66
-category#android.intent.category.IOT.LAUNCHER
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:47:17-81
-	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:47:27-78
-category#android.intent.category.LAUNCHER
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:48:17-77
-	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:38:23-63
 activity#br.edu.mca.jbwreader.MovimentoActivity
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:52:9-55
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:39:9-50:20
+	android:screenOrientation
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:42:13-49
+	android:label
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:41:13-45
 	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:52:19-52
-activity#br.edu.mca.jbwreader.MatrizActivity
-ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:53:9-61
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:40:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.IOT.LAUNCHER+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:43:13-49:29
+action#android.intent.action.MAIN
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:53:19-49
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.IOT.LAUNCHER
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:46:27-78
+category#android.intent.category.LAUNCHER
+ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from D:\Unoesc\2017\tcc Roberson\JBWReader\JBWReader\app\src\main\AndroidManifest.xml:47:27-74
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\61aa8f5279350f398277c76928b7a8be\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\29ac2fd1d3a24cab7ce3fb545b654050\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\70651b02cf43b69d6efa31e50b077efc\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\fd3d552b3902e221f8e8e7f5e866e611\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8877a2505b72ecdad405e0832489e994\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\9592f63c66b9533b932d56d25924693b\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\f3dfd7b5dfd06f81300c5c3555482ea6\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\53b34d0ba1426c2736ba9e02616d143a\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\0cfa048f80a338a0105e545346eb0e61\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\4ebf501aa9d11ea4204413d4c55393a1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\901faaaeb1502ef332a4d45e3f54977d\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\8cc580d44824ee6e33027a55331b322b\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\3e370fc56f713cca113af212e900bf1e\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\3f75331c3421493d320b06ebe747876c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\c518e011c3ecba9c47021f6a9581d2f7\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\2a37bff54e2b6fa96b89b58fc5d6d3f9\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\24a862ad01917210628d2ee78ac4cd87\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gelson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\116e59a224fbd645ab4b5578923a2256\AndroidManifest.xml:26:9-47
