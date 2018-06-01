@@ -12,19 +12,21 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.NumberPicker;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.things.pio.Gpio;
+import com.google.android.things.pio.PeripheralManagerService;
+
+
 import java.util.List;
+import java.util.Scanner;
 
 import br.edu.mca.serialviterbi.ui.Viterbi;
 
 public class MovimentoActivity extends Activity {
 
-    private NumberPicker npAtual;
     private NumberPicker npOrigem;
     private NumberPicker npDestino;
-    private TextView txtCelula;
 
     private NumberPicker npObstaculo1;
     private NumberPicker npObstaculo2;
@@ -34,28 +36,20 @@ public class MovimentoActivity extends Activity {
     private Button btnMontaMatriz;
     private Button btnIniciarMovimento;
 
-    // adaptadores e wifi - precisam estar ativos
-    private WifiManager wifiManager;
-
     private long TimeExecucao = 0;
     private MotorPulso motorCarrinho;
-    private String MsgControle = "Célula: ";
+    private String MsgControle;
     private String Direcao;
+    private WifiManager wifiManager;
 
-    private String[] bssids = new String[]{"C4:E9:84:A6:DE:BE", "30:B5:C2:DE:36:E2"}; // meus apps
-    //private String[] bssids = new String[]{"F0:3E:90:76:5C:98", "F0:3E:90:76:7B:68"};//lab vermelho
-    private boolean wirelessRunning = false;
-    private List<ScanResult> wifiList;
-    private long startTime = 0;
-    private BroadcastReceiver wifiReceiver;
     private final String WIRELESS_TAG = "BWReader - WIRELESS";
     private final String WIRELESS_FILENAME = "wireless_android.csv";
-    private final String INFERIDAS_FILENAME = "Celulas_Inferidas.csv";
-    private final String lEITURAS_FILENAME = "Leituras_Movimento.csv";
-    private int INTERACOES = 10;
-    private float[][] rssis;
-    private int interacao = 1;
-    private Viterbi viterbi;
+    private BroadcastReceiver wifiReceiver;
+    private boolean wirelessRunning = false;
+    private String[] bssids = new String[]{"C4:E9:84:A6:DE:BE", "30:B5:C2:DE:36:E2"}; // Gelson Casa
+    private List<ScanResult> wifiList;
+    private final Integer Leituras = 10;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,18 +58,12 @@ public class MovimentoActivity extends Activity {
 
         btnPrincipal = (Button) findViewById(R.id.btnPrincipal);
 
-        npAtual = (NumberPicker) findViewById(R.id.npAtual);
         npOrigem = (NumberPicker) findViewById(R.id.npOrigem);
         npDestino = (NumberPicker) findViewById(R.id.npDestino);
 
         npObstaculo1 = (NumberPicker) findViewById(R.id.npObstaculo1);
         npObstaculo2 = (NumberPicker) findViewById(R.id.npObstaculo2);
         npObstaculo3 = (NumberPicker) findViewById(R.id.npObstaculo3);
-
-        txtCelula = (TextView) findViewById(R.id.txtCelula);
-
-        npAtual.setMinValue(20);
-        npAtual.setMaxValue(100);
 
         // Podemos sair da primeira célua 1 e ir até a última 450
         npOrigem.setMinValue(1);
@@ -94,19 +82,6 @@ public class MovimentoActivity extends Activity {
         // aqui definimos o 1º Obstáculo entre as células 1 a 500
         npObstaculo3.setMinValue(1);
         npObstaculo3.setMaxValue(450);
-
-        // verificando estado da Wifi e solicitado habilitar se estiver inativa
-        wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        if (!wifiManager.isWifiEnabled()) {
-            wifiManager.setWifiEnabled(true);
-        }
-
-        viterbi = new Viterbi(450, 2, getResources().openRawResource(R.raw.tp450v543), getResources().openRawResource(R.raw.medias), getResources().openRawResource(R.raw.sigmas));
-        Toast.makeText(getApplicationContext(), "viterbi Acabou de Carregar" , Toast.LENGTH_SHORT).show();
-
-        INTERACOES = npAtual.getValue();
-        wireless();
-        Mover_carrinho();
     }
 
     public void Principal(View view) {
@@ -115,52 +90,26 @@ public class MovimentoActivity extends Activity {
     }
 
 
-    public void iniciaMovimento(View view) {
-        INTERACOES = npAtual.getValue();
-        wireless();
-    }
+    public void MontaMatriz(View view) {
+//     Intent in = new Intent(this, MatrizActivity.class);
+//     startActivity(in);
 
-    /**
-     * metodo wifi
-     */
-    private void wireless() {
-        new Thread(new Runnable() {
-
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                registerWireless();
-                int i = npAtual.getMinValue();
-                while (i <= INTERACOES) {
-                    if (!wirelessRunning) {
-                        wirelessRunning = true;
-                        wifiManager.startScan();
-                        startTime = System.currentTimeMillis();
-                        i++;
-                        // espera o tempo especificado, se o receiver retornar
-                        // coleta os dados ...
-                        while (((System.currentTimeMillis() - startTime) / 1000) <= 5) ;
-                        viterbi();
-                        wirelessRunning = false;
-                    }
-                }
-                 Toast.makeText(getApplicationContext(), "Fim das Interacões" , Toast.LENGTH_SHORT).show();
-                wirelessRunning = false;
-                unregisterWireless();
+        int cont = 0;
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 30; j++) {
+                cont = cont + 1;
             }
-        }).start();
+        }
+        Toast toast = Toast.makeText(getApplicationContext(), "Tamanho =" + cont, Toast.LENGTH_SHORT);
+        toast.show();
+
 
     }
 
+    public void Mover_carrinho(View view) {
 
-    public void Mover_carrinho() {
-
-        Direcao = "moveFrente";
-        TimeExecucao = 18700; // 360 Graus
+        Direcao = "moveDireita";
+        TimeExecucao = 2120; // 360 Graus
         // TimeExecucao = 1870; // 360 Graus
         // Variáves de Giro
         // 2120 milis  360 Graus
@@ -200,61 +149,19 @@ public class MovimentoActivity extends Activity {
     }
 
 
-    public void viterbi() {
-        final int[] celulas = viterbi.viterbi(rssis);
-        //gerar o log com o resultado das inferencias
+    public void Viterbi(View view) {
 
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                FileUtil.writeToSD("Célula Inferida = " + celulas[celulas.length - 1], INFERIDAS_FILENAME);
-                txtCelula.setText("Célula Inferida =" + celulas[celulas.length - 1]);
-            }
-        });
+            Toast.makeText(getApplicationContext(), MsgControle+ " Viterbi ", Toast.LENGTH_SHORT).show();
+
+       Viterbi v = new Viterbi(450, 2, 3);
+        int[] celulas = v.viterbi(new float[][]{{45, 60}});
+        for (int i = 0; i < celulas.length; i++) {
+            System.out.println(celulas[i]);
+        }  
+
     }
 
 
-    /**
-     * wifi discover method
-     */
-    private void registerWireless() {
-        wifiReceiver = new BroadcastReceiver() {
-            public void onReceive(Context c, Intent intent) {
-                if (wirelessRunning) {
-                    wifiList = wifiManager.getScanResults();
-                    Log.d("MOVIMENTO ACTIVITY", wifiList.toString());
-                    if (rssis == null) rssis = new float[1][2];
-                    else {
-                        float[][] rssisBkp = rssis;
-                        rssis = new float[++interacao][2];
-                        System.arraycopy(rssisBkp, 0, rssis, 0, rssisBkp.length);
-                    }
-                    for (int i = 0; i < bssids.length; i++) {
-                        for (ScanResult result : wifiList) {
-                            if (result.BSSID.equalsIgnoreCase(bssids[i])) {
-                                // achou o ssid procurado
-                                rssis[interacao - 1][i] = result.level;
-                                // gravar rssis no log
-                                break;
-                            }
-                        }
-                    }
-
-                    for (int i = interacao - 1; i < rssis.length; i++) {
-
-                        FileUtil.writeToSD("RSSI Lido = " + i + ": " + rssis[i][0] + " - " + rssis[i][1], lEITURAS_FILENAME);
-                    }
-                    wirelessRunning = false;
-                }
-            }
-        };
-
-        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-    }
-
-    private void unregisterWireless() {
-        unregisterReceiver(wifiReceiver);
-    }
 
 
 }
